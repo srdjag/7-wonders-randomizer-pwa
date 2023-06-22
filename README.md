@@ -1,93 +1,41 @@
 # 7 Wonders Randomizer
 
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+![image](https://github.com/srdjag/7-wonders-randomizer-pwa/assets/53865216/4ea33528-4e49-40c0-a19c-a5bd161ba71e)
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+For true 7 Wonders fans!
 
+Progressiv web app that randomly chooses wonders for each player, based on parameters that you set.
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+Live demo [here](https://seven-wonders-randomizer-3443e309d89c.herokuapp.com/)
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
+- React
+- Google Sheet (stores wonders and their expansions for easy changes)
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
 
+- Select wonder packs that you play with
+- Choose number of players
+- Let app also choose a wonder side for you
+- Draft mode - every player gets 3 random wonders
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![image](https://github.com/srdjag/7-wonders-randomizer-pwa/assets/53865216/6da0f40f-e762-46ac-9d46-32872eb8d0d3)
+![image](https://github.com/srdjag/7-wonders-randomizer-pwa/assets/53865216/7210949a-c0c4-4af4-8ff9-7ca09cbbd347)
 
 
 ## Setup
+1. `npm install`
+2. Create ".env" file in app root. Put `REACT_APP_API` and `REACT_APP_SHEET_ID` variables inside.
+
+More on how to acquire Google Sheet API [here](https://blog.golayer.io/google-sheets/google-sheets-api#:~:text=READ%20MORE-,Enable%20the%20Google%20Sheets%20API,-To%20enable%20the)
 
 ### Requirements
-- Node JS
-
-### Setup
-1. Clone Repo
-2. `npm install`
-3. `npm run start`
-
+- Node.js
 
 ## Usage
-- `npm run build`
-- Deploy
-
-
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
+- `npm run start` for development
+- `npm run build` for deployment
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Srdja]([https://www.flynerd.pl/](https://www.linkedin.com/in/srdjagunjic/))
